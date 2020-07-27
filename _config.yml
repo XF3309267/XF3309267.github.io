@@ -1,10 +1,10 @@
 # Site settings
 title: 秋序
-SEOTitle: 三叶草国际语 - 让沟通更容易
+SEOTitle: 你来时携风带雨，我无处可避。 你走时乱了四季，我久病难医
 header-img: img/post-bg-desk.jpg
-email: klovien@gmail.com
-description: "中西融合, 即学即会, 从此不再辛苦背单词"
-keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
+email: 1343309267@qq.com
+description: "希望 '在一起' 是永远,而不是儿戏 "
+# keyword: "人工语言, 国际语, 世界语, 三叶草国际语, 三叶语"
 url: "https://klovien.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
@@ -97,18 +97,18 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "三叶草国际语维基词典",
-        href: "https://github.com/klovien/klovien.github.io/wiki"
-    },{
-        title: "三叶草国际语互动社区",
-        href: "https://klovien.fandom.com/wiki/Klovien_Interlingua"
-    },{
-        title: "知乎：人造国际语",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
-    },{
-        title: "知乎：Henri_Jambo",
-        href: "https://www.zhihu.com/people/henry-jiang-78" 
-    }
-]
+# friends: [
+#     {
+#         title: "三叶草国际语维基词典",
+#         href: "https://github.com/klovien/klovien.github.io/wiki"
+#     },{
+#         title: "三叶草国际语互动社区",
+#         href: "https://klovien.fandom.com/wiki/Klovien_Interlingua"
+#     },{
+#         title: "知乎：人造国际语",
+#         href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
+#     },{
+#         title: "知乎：Henri_Jambo",
+#         href: "https://www.zhihu.com/people/henry-jiang-78" 
+#     }
+# ]
