@@ -12,7 +12,7 @@ github_repo: "https://github.com/XF3309267/XF3309267.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "你好，世界是你的；你不好，世界是别人的"
-sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-XF.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
