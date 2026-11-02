@@ -1,0 +1,89 @@
+TextPreview.vue 测试文本
+
+文件用途
+
+这是一个用于测试 Vue 3 文本预览组件（TextPreview.vue）的 UTF-8
+文本文件。
+
+建议重点检查： 1. 中文、英文和数字是否正常显示 2.
+换行、空行和段落间距是否正确 3. 长文本是否自动换行，或能否横向滚动 4.
+特殊字符、标点符号和 Emoji 是否显示正常 5.
+文件较长时，滚动和性能是否正常
+
+一、基础文本
+
+你好，世界！Hello, world! 前端开发：Vue 2 / Vue 3 / React / JavaScript /
+TypeScript 数字测试：0123456789 日期测试：2026-11-02 10:08:30
+金额测试：¥7,500.00 $1,299.99 €88.50
+
+这一段用于测试普通段落的显示效果。 这一行紧跟上一行，中间没有空行。
+
+这一段前面有一个空行，用来观察段落间距。
+
+二、缩进与制表符
+
+普通行：左侧没有缩进。 四个空格缩进。 八个空格缩进。 这是一个 Tab
+制表符开头的行。 这是两个 Tab 制表符开头的行。
+行尾空格测试：这一行末尾有空格。
+下一行用于观察行尾空格是否产生影响。
+
+三、特殊字符
+
+英文标点: ! @ # $ % ^ & * ( ) - _ + = [ ] { } ; : ’ ” , . < > / ?
+中文标点：！＠＃￥％……＆×（）——＋＝【】｛｝；：’“”，。《》、？｜～
+数学符号：± × ÷ ≈ ≠ ≤ ≥ ∞ √ ∑ ∏ ∫ 箭头符号：← ↑ → ↓ ↔ ⇒ ⇔ 货币符号：$ ¥
+€ £ ₹ Emoji：😀 🚀 🌱 🎉 ❤️ 👍
+
+四、长文本换行测试
+
+下面是一段较长的连续文本，用于检查预览组件是否能够正确处理超出容器宽度的内容。请观察文本是否根据容器宽度自动换行，是否出现横向滚动条，以及复制、选择文本时是否存在异常。Lorem
+ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
+a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
+Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur
+purus sit amet fermentum.
+
+超长无空格字符串测试（检查是否会撑开容器）：
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+
+五、类似 Markdown 的纯文本
+
+一级标题（这里只是普通文本）
+
+二级标题
+
+三级标题
+
+加粗标记 斜体标记 代码标记 - 列表项目 A - 列表项目 B - 子项目 B-1 -
+子项目 B-2
+
+  这是一段引用文本。 第二行引用文本。
+
+六、JSON 内容
+
+{ “name”: “TextPreview”, “version”: “1.0.0”, “description”: “Plain text
+preview test”, “enabled”: true, “count”: 3, “tags”: [“Vue3”, “Text”,
+“Preview”], “nested”: { “language”: “zh-CN”, “encoding”: “UTF-8” } }
+
+七、代码片段
+
+function greet(name) { const message = 你好，${name}！;
+console.log(message); return message; }
+
+const config = { framework: “Vue 3”, component: “TextPreview.vue”,
+showLineNumbers: true };
+
+八、日志内容
+
+2026-11-02 10:08:01 INFO [TextPreview] Component mounted. 2026-11-02
+10:08:02 DEBUG [TextPreview] Loading file: sample.txt 2026-11-02
+10:08:03 WARN [TextPreview] The file contains a long line. 2026-11-02
+10:08:04 ERROR [TextPreview] This is a simulated error message.
+2026-11-02 10:08:05 INFO [TextPreview] Preview test completed.
+
+九、空行与结尾测试
+
+第一段结束。
+
+上面有连续两个空行。
+
+下面是最后一段内容。 文件结束标记：END_OF_TEXT_PREVIEW
